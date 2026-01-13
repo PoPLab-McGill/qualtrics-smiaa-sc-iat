@@ -10,18 +10,18 @@ var API = new APIConstructor();
 		    }, 
             media: [
 		   			{ word: 'Répétition de mouvements' },
-                    { word: 'Évitement du contact visuel' },
                     { word: 'Aversion aux changements soudains' },
                     { word: 'Difficulté à se faire des amis' },
-                    { word: 'Répétition de certains mots' }
+                    { word: 'Interprétation littérale du langage' }
+
             ],
             css: {color: '#31b404', 'font-size': '3em'}
 		  },	
 
   		attribute1 : 
 			{
-            name: 'Négatif',
-            title: {media: {word: 'Négatif'}, css: {color: '#31b404', 'font-size': '2em'}, height: 7},
+            name: 'Mauvais',
+            title: {media: {word: 'Mauvais'}, css: {color: '#31b404', 'font-size': '2em'}, height: 7},
             media: [
                     { word: 'Terrible' },
                     { word: 'Fâché' },
@@ -32,8 +32,8 @@ var API = new APIConstructor();
 			css : {color:'#31b404','font-size':'3em'}
 			},
         attribute2: {
-            name: 'Positif',
-            title: {media: {word: 'Positif'}, css: {color: '#31b404', 'font-size': '2em'}, height: 7},
+            name: 'Bien',
+            title: {media: {word: 'Bien'}, css: {color: '#31b404', 'font-size': '2em'}, height: 7},
             media: [
                     { word: 'Amour' },
                     { word: 'Joie' }, 
