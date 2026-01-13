@@ -17,14 +17,14 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			// Define the category
 			category: {
-				name: 'Les autistes', // Category name to be used for feedback and logging
+				name: 'Les personnes autistes', // Category name to be used for feedback and logging
 				title: {
-					media: {word: 'Les autistes'}, // Name of the category presented in the task
+					media: {word: 'Les personnes autistes'}, // Name of the category presented in the task
 					css: {color: '#31b404', 'font-size': '2em'},
 					height: 4
 				},
 				media: [
-		    { word: 'Répétition de mouvements' },
+		   			{ word: 'Répétition de mouvements' },
                     { word: 'Évitement du contact visuel' },
                     { word: 'Aversion aux changements soudains' },
                     { word: 'Difficulté à se faire des amis' },
@@ -56,7 +56,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				},
 				media: [
                     { word: 'Amour' },
-                    { word: 'Joi' }, 
+                    { word: 'Joie' }, 
                     { word: 'Plaisir' },
                     { word: 'Paix' }
 				],
