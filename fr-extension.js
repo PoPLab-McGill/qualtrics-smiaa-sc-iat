@@ -25,17 +25,16 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				},
 				media: [
 		   			{ word: 'Répétition de mouvements' },
-                    { word: 'Évitement du contact visuel' },
                     { word: 'Aversion aux changements soudains' },
                     { word: 'Difficulté à se faire des amis' },
-                    { word: 'Répétition de certains mots' }
+                    { word: 'Interprétation littérale du langage' }
 				],
 				css: {color: '#31b404', 'font-size': '2em'}
 			},
 			attribute1: {
-				name: 'Négatif',
+				name: 'Mauvais',
 				title: {
-					media: {word: 'Négatif'},
+					media: {word: 'Mauvais'},
 					css: {color: '#31b404', 'font-size': '2em'},
 					height: 4
 				},
@@ -48,9 +47,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				css: {color: '#31b404', 'font-size': '2em'}
 			},
 			attribute2: {
-				name: 'Positif',
+				name: 'Bon',
 				title: {
-					media: {word: 'Positif'},
+					media: {word: 'Bon'},
 					css: {color: '#31b404', 'font-size': '2em'},
 					height: 4
 				},
