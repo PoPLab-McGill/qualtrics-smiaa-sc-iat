@@ -32,7 +32,7 @@ var API = new APIConstructor();
 			css : {color:'#31b404','font-size':'3em'}
 			},
         attribute2: {
-            name: 'Bien',
+            name: 'Bon',
             title: {media: {word: 'Bien'}, css: {color: '#31b404', 'font-size': '2em'}, height: 7},
             media: [
                     { word: 'Amour' },
